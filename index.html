@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Druzi</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#home" class="navbar__logo--img">
+                        <img src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".about-section" href="#about" class="menu__link">About</a></li>
+                            <li><a data-goto=".services-section" href="#services" class="menu__link">Services</a></li>
+                            <li><a data-goto=".casses-section" href="#casses" class="menu__link">Casses</a></li>
+                            <li><a href="#" class="menu__link">News</a></li>
+                            <li><a href="#" class="menu__link">Careers</a></li>
+                            <li><a href="#" class="menu__link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="header__languages">
+                    <a class="header__languages--ua" href="#">UA</a>
+                    <a class="header__languages--en" href="#">EN</a>
+                </div>
+            </div>
+        </header>
+        <main>
+        <!--home-section-->
+            <div class="container">
+                <section id="home" class="home-section">
+                    <img class="home-section__img" src="images/logo.png" alt="logo">
+                    <h1 class="home-section__title">A one-stop marketing hub</h1>
+                    <div class="home-section__info">
+                        <p>One agency for all marketing tasks of your business.</p>
+                        <p>Check it out!</p>
+                    </div>
+                    <button type="button" class="home-section__button">
+                        <img class="home-section__button--svg" src="images/mail.svg" alt="mail">
+                        <p class="home-section__button--name">Right here</p>
+                    </button>
+                </section>
+            </div>
+        <!--about section-->
+            <div class="container">
+                <section id="about" class="about-section">
+                    <div class="about-section__title">About</div>
+                    <div class="about-section__info">
+                        <div class="about-section__info--first">
+                            <p>
+                                <span>DRUZI marketing hub </span>is the one-stop marketing agency for all marketing tasks.
+                            </p>
+                            <p>
+                                This means that DRUZI is the one-stop agency for all your company's marketing needs. We are your
+                                complete marketing department.
+                            </p>
+                            <p>
+                                We work in the hub format: DRUZI and the company's marketing team
+                                are a single whole, only we are outsourced. We work under the supervision of the CEO or CMO. We will
+                                jointly agree on the company's strategy, tactical decisions, and budgets to achieve your goals.
+                            </p>
+
+                        </div>
+                        <div class="about-section__info--second">
+                            <p class="about-section__info--second-tile">What is DRUZI about?</p>
+                            <p>
+                                About the efficiency of your business.
+                            </p>
+                            <p>On the wise use of marketing budgets.
+                            </p>
+                            <p>
+                                About the cooperation of happy people.
+                            </p>
+                            <p>
+                                That is why we are the one-stop agency for our customers. This format optimizes the
+                                time spent on briefs and related communications. In addition, customers receive updates from all
+                                areas of work from one manager at a convenient time. Like a true friend: write to us, and we will
+                                resolve all issues together.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        <!--services-section-->
+            <div class="container">
+                <section id="services" class="services-section">
+                    <div class="services-section__title">Our services for your business</div>
+                    <div class="services-section__slider">
+                        <div class="services-section__slider--item">
+                            <p class="services-section__slider--item-title">Marketing challenges</p>
+                            <img class="services-section__slider--item-line" src="images/color-stripe.png" alt="color-line">
+                            <a class="services-section__slider--item-link">
+                                <p>READ MORE</p>
+                                <img src="images/arrow.svg">
+                            </a>
+                        </div>
+                        <div class="services-section__slider--item">
+                            <p class="services-section__slider--item-title">Events and advertising campaigns</p>
+                            <img class="services-section__slider--item-line" src="images/color-stripe.png" alt="color-line">
+                            <a class="services-section__slider--item-link">
+                                <p>READ MORE</p>
+                                <img src="images/arrow.svg">
+                            </a>
+                        </div>
+                        <div class="services-section__slider--item">
+                            <p class="services-section__slider--item-title">Analytics Business <span>&</span>Marketing</p>
+                            <img class="services-section__slider--item-line" src="images/color-stripe.png" alt="color-line">
+                            <a class="services-section__slider--item-link">
+                                <p>READ MORE</p>
+                                <img src="images/arrow.svg">
+                            </a>
+                        </div>
+                        <div class="services-section__slider--item">
+                            <p class="services-section__slider--item-title">Creative & design</p>
+                            <img class="services-section__slider--item-line" src="images/color-stripe.png" alt="color-line">
+                            <a class="services-section__slider--item-link">
+                                <p>READ MORE</p>
+                                <img src="images/arrow.svg">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        <!--casses-section-->
+            <div class="container">
+                <section id="casses" class="casses-section">
+                   <div class="casses-section__title">Our cases</div>
+                    <div class="casses-section__videos">
+                        <ul  id = "casses-section__videos-list" class="casses-section__videos-list">
+                            <li class="casses-section__videos-list-item active-video" data-url="https://www.youtube.com/embed/tCxTNUf85Xg">
+                                <img src="https://i3.ytimg.com/vi/tCxTNUf85Xg/hqdefault.jpg" alt="video">
+                                <p>2023-2022</p>
+                            </li>
+                            <li class="casses-section__videos-list-item" data-url="https://www.youtube.com/embed/SsOeqjBMvqQ">
+                                <img src="https://i3.ytimg.com/vi/SsOeqjBMvqQ/hqdefault.jpg" alt="video">
+                                <p>2022-2021</p>
+                            </li>
+                            <li class="casses-section__videos-list-item" data-url="https://www.youtube.com/embed/RJkCB5ajD8c">
+                                <img src="https://i3.ytimg.com/vi/RJkCB5ajD8c/hqdefault.jpg" alt="video">
+                                <p>2021-2020</p>
+                            </li>
+                            <li class="casses-section__videos-list-item" data-url="https://www.youtube.com/embed/M62Zq9-0ORc">
+                                <img src="https://i3.ytimg.com/vi/M62Zq9-0ORc/hqdefault.jpg" alt="video">
+                                <p>2020-2019</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script/slick.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
